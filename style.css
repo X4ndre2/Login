@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-weight: 300;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	/*background-color: red;*/
+}
+
+form{
+	background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/694611-banniere-de-vague-bleue-fluide-moderne-sur-fond-blanc-gratuit-vectoriel.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: center;
+}
+
+div.container{
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	padding: 10px 0;
+	border-radius: 25px;
+	backdrop-filter: blur(5px);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+div.titre{
+	/*background-color: green;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+
+input{
+	width: 78%;
+	height: 35px;
+	align-self: center;
+	margin-top: 7px;
+	padding-left: 2%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+label{
+	padding-left: 10%;
+	padding-top: 15px; 
+}
+
+button.btn{
+	background-color: #3b61d5;
+	align-self: center;
+	margin-top: 15px;
+	width: 70%;
+	height: 40px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+p{
+	align-self: center;
+	margin-top: 20px; 
+}
+
+hr{	
+	width: 15%;
+	height: 1px;
+	background-color: black;
+	align-self: center;
+	margin: 20px 0; 
+	border: none;
+}
+
+a.loginin{
+	/*text-decoration: none;*/
+	color: black;
+}
+
+a.loginup{
+	background-color: #f0f0f0;
+	height: 45px;
+	width: 80%;
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	margin: 7px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a.loginup:hover{
+	background-color: #cdcdcd;
+	transition: 0.3s;
+}
